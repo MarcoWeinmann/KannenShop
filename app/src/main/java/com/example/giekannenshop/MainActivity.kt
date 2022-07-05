@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         val fans = Datasource().loadKanne()
 
-        binding.recyclerKannen.layoutManager = LinearLayoutManager(this)
-
         binding.recyclerKannen.adapter = Item_Adapter(this, fans)
 
         binding.recyclerKannen.setHasFixedSize(true)
