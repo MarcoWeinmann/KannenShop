@@ -18,12 +18,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:listitem="@layout/list_item"/>
+            tools:listitem="@layout/list_item"
+            tools:orientation="horizontal" />
         
 
     </androidx.constraintlayout.widget.ConstraintLayout>
